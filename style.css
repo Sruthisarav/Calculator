@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+table {
+    border: 2px black solid;
+    padding: 15px;
+    background-color: black;
+    border-radius: 50px;
+    height: 600px;
+}
+button {
+    border:1px grey solid;
+    display: inline-block;
+    height: 80px;
+    font-size: 35px;
+    border-radius: 50px;
+    margin: 3px;
+    background-color: orange;
+    color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+}
+button:active {
+    border: 4px white solid;
+}
+.regular {
+    width: 80px;
+}
+.big-btn {
+    width: 268px;
+}
+#display {
+    text-align: right;
+    height: 120px;
+    font-size: 63px;
+    color: white;
+    font-family: "Apple SD Gothic Neo", Helvetica, Arial;
+}
